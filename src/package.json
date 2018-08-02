@@ -1,6 +1,6 @@
 {
     "name": "@nstudio/nativescript-smart-adserver",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "SmartAdServer SDK Implementation for NativeScript",
     "main": "smart-adserver",
     "typings": "index.d.ts",

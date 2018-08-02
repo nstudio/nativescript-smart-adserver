@@ -4,20 +4,20 @@
     <Label text="Smart Ad Server" class="text-center"/>
     <!-- 663262, 892507, 663262 -->
     <sas:SmartAdBanner height="150"
-        pageId="35176"
+        pageId="663262"
         formatId="15140"
-        autoRefresh="true" />
-    <Label class="hr-light" margin="20" />
-    <!-- <sas:SmartAdBanner height="50"
-        pageId="35176"
-        formatId="63178"
         autoRefresh="true" />
     <Label class="hr-light" margin="20" />
     <sas:SmartAdBanner height="50"
-        pageId="35176"
+        pageId="663262"
         formatId="15140"
         autoRefresh="true" />
-    <WebView src="{{ html }}" /> -->
+    <Label class="hr-light" margin="20" />
+    <sas:SmartAdBanner height="50"
+        pageId="663262"
+        formatId="15140"
+        autoRefresh="true" />
+    <WebView src="{{ html }}" />
     <Button text="goto second" tap="onGotoSecond" />
   </StackLayout>
   <!-- <WebView src="{{ html }}" /> -->
