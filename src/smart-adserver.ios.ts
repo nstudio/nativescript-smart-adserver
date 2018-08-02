@@ -21,7 +21,6 @@ export class SmartAdBanner extends Common {
 
     constructor() {
         super();
-        this.nativeView = SASBannerView.new();
     }
 
     public static init(siteId: number, baseUrl: string) {
@@ -43,6 +42,7 @@ export class SmartAdBanner extends Common {
     public onLoaded() {
         super.onLoaded();
 
+        this.nativeView = SASBannerView.new();
         this.nativeView.delegate = SASAdViewDelegateImpl.initWithOwner(
             new WeakRef<SmartAdBanner>(this)
         );
@@ -56,6 +56,7 @@ export class SmartAdBanner extends Common {
         );
 
         this.nativeView.frame = this.nativeView.bounds;
+        
     }
 
     public onUnloaded() {

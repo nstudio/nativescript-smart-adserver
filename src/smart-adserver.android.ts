@@ -29,6 +29,12 @@ export class SmartAdBanner extends Common {
             app.android.context
         );
         SASBannerView.setRefreshInterval(30);
+        console.log(
+            "passing this",
+            SmartAdBanner.SITE_ID,
+            this.pageId,
+            parseInt(this.formatId, 10)
+        );
         SASBannerView.loadAd(
             SmartAdBanner.SITE_ID,
             this.pageId,
